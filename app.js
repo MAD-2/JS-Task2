@@ -1,7 +1,7 @@
 //Variables
 let time=0;
 let timeId=0;
-let timer=true;
+let timerout=true;
 
 //Elements in a variable
 const start=document.querySelector("#start");
