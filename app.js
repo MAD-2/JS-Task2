@@ -25,7 +25,9 @@ function displayTime(second){
 function endTime(){
     timerM.innerHTML='TIME OUT'
 }
-
+start.addEventListener("click",function(){
+    initClock();});
+reset.addEventListener("click",function(){});
 
 
 //use this function to start the timer
