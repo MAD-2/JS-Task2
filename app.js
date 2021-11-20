@@ -25,16 +25,17 @@ function displayTime(second){
 function endTime(){
     timerH.innerHTML='TIME OUT'
 }
+// Start the timer
 start.addEventListener("click",function(){
     initClock();});
+    
+    // stop and clear the timer
 reset.addEventListener("click",function(){});
 
 
-//use this function to start the timer
 
-//this function update the timer values
 
-// stop and clear the timer
 
-// Start the timer
+
+
 
