@@ -21,10 +21,12 @@ function displayTime(second){
     const min = Math.floor(second/60);
     const sec = Math.floor(second %60);
 
-    timerH.innerHTML='${min<10 ? "0": ""}{min}:${sec<10?"0":""}${sec}'}
+    timerH.innerHTML=`${min<10?'0':''}${min}:${sec < 10 ?'0':''} ${sec}`}
 function endTime(){
     timerH.innerHTML='TIME OUT'
 }
+
+
 
 // Start the timer
 start.addEventListener("click",function(){
